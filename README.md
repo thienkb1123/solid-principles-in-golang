@@ -8,7 +8,7 @@
 
 
 3. Liskov Substitution Principle (LSP) - Nguyên lý Thay Thế Lít Kốp 
-    > **_NOTE:_** Nguyên lý thứ ba, tương ứng với chữ L trong SOLID. Trong một chương trình, các object của class con có thể thay thế class cha mà không làm thay đổi tính đúng đắn của chương trình.
+    > **_NOTE:_** Nguyên lý thứ ba, tương ứng với chữ L trong SOLID. Trong một chương trình, các object của class con có thể thay thế class cha mà không làm thay đổi tính đúng đắn của chương trình. Để giữ tính đúng đắn của chương trình, class con phải thay thế được class cha.
 
 4. Interface Segregation Principle (ISP) - Nguyên lý phân tách interface.
     > **_NOTE:_**  Nguyên lý thứ tư, tương ứng với chữ I trong SOLID. Thay vì dùng 1 interface lớn, ta nên tách thành nhiều interface nhỏ, với nhiều mục đích cụ thể. Interface là một lớp rỗng chỉ chứa khai báo về tên phương thức không có khai báo về thuộc tính hay thứ gì khác và các phương thức này cũng là rỗng. Bởi vậy bất kỳ lớp nào sử dụng lớp interface đều phải định nghĩa các phương thức đã khai báo ở lớp interface. Để thiết kế một hệ thống linh hoạt, dễ thay đổi, các module của hệ thống nên giao tiếp với nhau thông qua interface. Mỗi module sẽ gọi chức năng của module khác thông qua interface mà không cần quan tâm tới implementation bên dưới.
